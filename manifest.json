@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "mod-header",
+  "name": "ModHeader",
   "version": "1.0.0",
   "description": "自动在每个请求中添加自定义的请求头",
   "permissions": [
