@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mod-header</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>
+        <img src="icons/icon48.png" alt="mod-header" class="title-icon">
+        mod-header
+      </h1>
+      <span id="headerCount" class="count-badge" title="已启用数量">0</span>
+    </div>
+
+    <div class="header-form">
+      <div class="form-row">
+        <input type="text" id="headerName" placeholder="请求头名称" class="form-input">
+        <input type="text" id="headerValue" placeholder="请求头值" class="form-input">
+        <button id="addHeaderBtn" class="btn-add" title="添加">+</button>
+      </div>
+    </div>
+
+    <hr class="section-divider">
+
+    <div class="headers-section">
+      <div class="section-title">
+        <span>已配置的请求头</span>
+      </div>
+      <div id="headersList" class="headers-list">
+        <p class="empty-state">暂无自定义请求头</p>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

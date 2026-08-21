@@ -1,0 +1,14 @@
+# JetBrains / WebStorm
+.idea/
+
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+build/
+*.zip
+
+# 系统文件
+.DS_Store
+Thumbs.db
